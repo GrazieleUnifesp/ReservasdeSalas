@@ -1,6 +1,6 @@
 package com.roombooking.model;
 
-// Commit 2 - Graziele
+// Commit 3 - Graziele
 public class Professor extends Usuario {
     private String departamento;
 

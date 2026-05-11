@@ -1,6 +1,6 @@
 package com.roombooking.model;
 
-// Commit 3 - Graziele
+// Commit 2 - Graziele
 public abstract class Sala {
     private String id;
     private String nome;

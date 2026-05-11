@@ -1,6 +1,6 @@
 package com.roombooking.model;
 
-// Commit 2 - Graziele
+// Commit 3 - Graziele
 public abstract class Usuario {
     private String id;
     private String nome;
