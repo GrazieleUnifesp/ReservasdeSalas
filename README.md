@@ -34,8 +34,6 @@ room-booking/
 │       ├── singleton/      # Repositórios e configuração
 │       ├── decorator/      # Funcionalidades extras 
 │       └── Main.java       # Ponto de entrada
-├── docs/
-│   └── diagrama-classes.png
 └── README.md
 ```
 
