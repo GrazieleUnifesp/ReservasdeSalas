@@ -2,7 +2,7 @@ package com.roombooking.decorator;
 
 import com.roombooking.model.Reserva;
 
-// Commit 18 - Ana Clara
+// Commit 18 - Graziele
 // Classe base do padrão Decorator para Reserva
 public abstract class ReservaDecorator {
     protected Reserva reserva;

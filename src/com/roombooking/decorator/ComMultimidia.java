@@ -2,7 +2,7 @@ package com.roombooking.decorator;
 
 import com.roombooking.model.Reserva;
 
-// Commit 18 - Ana Clara
+// Commit 18 - Graziele
 // Decorator concreto: adiciona equipamento multimídia à reserva
 public class ComMultimidia extends ReservaDecorator {
 
