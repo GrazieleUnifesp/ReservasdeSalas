@@ -5,7 +5,6 @@ import com.roombooking.observer.Observador;
 import com.roombooking.singleton.RepositorioReservas;
 import com.roombooking.strategy.PoliticaDeReserva;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
