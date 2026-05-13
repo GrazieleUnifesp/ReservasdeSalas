@@ -34,8 +34,22 @@ room-booking/
 │       ├── singleton/      # Repositórios e configuração
 │       ├── decorator/      # Funcionalidades extras 
 │       └── Main.java       # Ponto de entrada
+├── docs/
+│   └── diagrama.png
 └── README.md
 ```
+## 🗂️ Diagrama de Classes
+
+### Padrões representados no diagrama
+- **Factory Method** — `SalaFactory` (interface) com as três implementações
+  concretas (`SalaIndividual`, `SalaGrupo`, `SalaLaboratorio`), herdando de `Sala` abstrata
+- **Singleton** — `RepositorioReservas` e `ConfiguracaoSistema` com estereótipo `«singleton»`
+- **Strategy** — `PoliticaDeReserva` (interface) com `PrimeiroAReservar` e
+  `PrioridadeDocente`, conectada ao `GerenciadorReservas` por dependência tracejada
+- **Observer** — interfaces `Observador` e `Notificavel`, com os três observadores
+  concretos: `NotificadorEmail`, `NotificadorSistema` e `ServicoRelatorio` (RF-04 e RF-05)
+- **Decorator** *(bônus)* — `ReservaDecorator` abstrata com `ComMultimidia` e
+  `ComLimpeza`, com a relação de agregação `wraps → Reserva`
 
 ## ▶️ Como executar
 ```bash
